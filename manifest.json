@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "SafeBrowse",
+    "version": "1",
+    "description": "A extension that will detect suspicious websites and warn the user about it",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "activeTab",
+        "storage",
+        "tabs",
+        "cookies",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+        "default_title": "SafeBrowse",
+        "default_popup": "safebrowse.html"
+    }
+}
