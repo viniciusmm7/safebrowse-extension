@@ -14,14 +14,14 @@ Then, you can add it to `about:debugging` by clicking on "Load Temporary Add-on"
 
 Now, every time you visit a URL, the plugin will show:
 
-[x] Thirdparty connections made by the website
+- [x] Thirdparty connections made by the website
 
-[x] The data storage at the user's device
+- [x] The data storage at the user's device
 
-[x] The cookies used by browser (first-party, third-party, session and persistent)
+- [x] The cookies used by browser (first-party, third-party, session and persistent)
 
-[ ] Potential browser hijacking
+- [ ] Potential browser hijacking
 
-[ ] Canvas fingerprinting detection
+- [ ] Canvas fingerprinting detection
 
-[x] Privacy score of the website
+- [x] Privacy score of the website
